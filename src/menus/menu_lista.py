@@ -1,5 +1,6 @@
 from src.functions.adcionar_item import adcionar_item
 from src.functions.ver_itens import ver_itens
+from src.functions.remover_item import remover_item
 
 def menu_lista(listas, option):
     while True:
@@ -13,6 +14,7 @@ def menu_lista(listas, option):
         
         match escolha:
             case 1: adcionar_item(listas, option)
+            case 2: remover_item(listas, option)
             case 3: ver_itens(listas, option)
             case 4: 
                 break

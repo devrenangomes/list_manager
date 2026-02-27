@@ -6,7 +6,7 @@ def criar_lista(listas):
             print("Essa lista já existe.")
         else:
             listas[nome_lista] = []
-            print(f"\nA lista '{nome_lista}' foi criada com sucesso")
+            print(f"\nA lista '{nome_lista}' foi criada com sucesso!")
             break
 
     return

@@ -4,5 +4,5 @@ def adcionar_item(listas,option):
         print("Esse item já existe.")
     else:
         listas[option].append(item)
-        print(f"'{item}' adicionado com sucesso!")
+        print(f"\n'{item}' adicionado com sucesso!")
     return
