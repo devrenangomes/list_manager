@@ -1,5 +1,5 @@
-def adcionar_item(listas,option):
-    item = input("\nAdcione um item:\n")
+def adicionar_item(listas,option):
+    item = input("\nAdicione um item:\n")
     if item in listas[option]:
         print("Esse item já existe.")
     else:
